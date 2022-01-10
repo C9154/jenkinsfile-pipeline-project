@@ -3,9 +3,15 @@ pipeline {
     stages {
         stage('run') {
             steps {
+<<<<<<< HEAD
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'python --version'
                 sh 'python pipeline.py'
+=======
+                echo "first Clarusway_Way to Reinvent Yourself."
+                sh 'echo using shell within Jenkinsfile'
+                echo 'not using shell in the Jenkinsfile'
+>>>>>>> refs/remotes/origin/main
             }
         }
     }
